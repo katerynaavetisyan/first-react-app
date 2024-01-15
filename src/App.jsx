@@ -1,13 +1,19 @@
 import Chicken from "./Chicken";
 import './App.css'
 import Greeter from "./Greeter";
+import Die from "./Die";
+import ListPicker from "./ListPicker";
 
 function App() {
   return (
     <div>
-      <Greeter person="Artur" />
-      <Greeter person="Katya" />
-      <Greeter person="David" />
+      <ListPicker values={[1, 2, 3]} />
+      {/* <Greeter person="Artur" />
+      <Greeter from="Colt" />
+      <Greeter person="David" from="Neighbor" />
+      <Die numSides={20} />
+      <Die />
+      <Die numSides={10} /> */}
     </div>
   )
 }
