@@ -8,6 +8,8 @@ function App() {
   return (
     <div>
       <ListPicker values={[1, 2, 3]} />
+      <ListPicker values={["a", "b", "c"]} />
+      <ListPicker values={{ a: 1, b: 2 }} />
       {/* <Greeter person="Artur" />
       <Greeter from="Colt" />
       <Greeter person="David" from="Neighbor" />
