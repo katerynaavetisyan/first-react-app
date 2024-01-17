@@ -10,7 +10,7 @@ function App() {
     <div>
       <DoubleDice />
       <DoubleDice />
-      <DoubleDice />
+      {/* <DoubleDice />
       <ListPicker values={[1, 2, 3]} />
       <ListPicker values={["a", "b", "c"]} />
       <ListPicker values={{ a: 1, b: 2 }} />
@@ -19,7 +19,7 @@ function App() {
       <Greeter person="David" from="Neighbor" />
       <Die numSides={20} />
       <Die />
-      <Die numSides={10} />
+      <Die numSides={10} /> */}
     </div>
   )
 }
