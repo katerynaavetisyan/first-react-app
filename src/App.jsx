@@ -11,15 +11,15 @@ function App() {
       <DoubleDice />
       <DoubleDice />
       <DoubleDice />
-      {/* <ListPicker values={[1, 2, 3]} />
+      <ListPicker values={[1, 2, 3]} />
       <ListPicker values={["a", "b", "c"]} />
-      <ListPicker values={{ a: 1, b: 2 }} /> */}
-      {/* <Greeter person="Artur" />
+      <ListPicker values={{ a: 1, b: 2 }} />
+      <Greeter person="Artur" />
       <Greeter from="Colt" />
       <Greeter person="David" from="Neighbor" />
       <Die numSides={20} />
       <Die />
-      <Die numSides={10} /> */}
+      <Die numSides={10} />
     </div>
   )
 }
