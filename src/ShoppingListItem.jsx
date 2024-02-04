@@ -10,7 +10,7 @@ export default ShoppingListItem;
 
 
 
-<li
+{/* <li
     key={i.id}
     style={{
         color: i.completed ? "blue" : "red",
@@ -19,4 +19,4 @@ export default ShoppingListItem;
 
 >
     {i.item} - {i.quantity}
-</li> 
+</li>  */}
