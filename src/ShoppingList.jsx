@@ -8,7 +8,7 @@ function ShopingList({ items }) {
                 <ShoppingListItem
                     key={i.id}
                     item={i.item}
-                    quantity={i.item}
+                    quantity={i.quantity}
                     completed={i.completed}
                 />
 
