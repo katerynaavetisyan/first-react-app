@@ -1,5 +1,4 @@
 
-import './App.css';
 import PropertyList from './PropertyList';
 
 const properties = [
