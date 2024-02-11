@@ -20,8 +20,8 @@ const properties = [
 function App() {
   return (
     <div>
-      <Clicker />
-      <Form />
+      <Clicker message="Please stop clicking" buttonText="Do not click" />
+      {/* <Form /> */}
       {/* <PropertyList properties={properties} /> */}
       {/* <ShoppingList items={data} /> */}
     </div>
