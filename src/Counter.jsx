@@ -4,7 +4,7 @@ export default function Counter() {
     const [num, setNum] = useState(5);
 
     const changeNum = () => {
-        setNum(10)
+        setNum(num + 1)
     }
 
 
